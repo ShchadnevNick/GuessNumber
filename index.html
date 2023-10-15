@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Угадай число!</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="header">
+      <button class="btn-again"><b>Сначала!</b></button>
+      <p class="between">
+        <b>
+          &lt;от <span class="from">1</span> и <span class="to">100</span>&gt;
+        </b>
+      </p>
+    </div>
+    <div class="middle">
+      <h1>Угадай Число!</h1>
+    </div>
+    <div class="ran-num">
+      <span class="question"><b>???</b></span>
+    </div>
+    <main>
+      <section class="left">
+        <input type="text" class="input-num" />
+        <button class="btn-check"><b>Проверить</b></button>
+      </section>
+      <section class="right">
+        <p class="guess-message">Начни угадывать</p>
+        <p>Очки: <span class="score">10</span></p>
+        <p>Лучший результат: <span class="result">0</span></p>
+      </section>
+    </main>
+    <div class="bottom">
+      <button class="menu"><a href="menu.html">Меню</a></button>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
